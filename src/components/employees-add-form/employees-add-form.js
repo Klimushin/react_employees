@@ -106,7 +106,7 @@ const EmployeesAddForm  = (props) => {
                 <input type="number"
                     className="form-control new-post-label"
                     placeholder="З/П в $?"
-                    name='salary'                    // value={salary}
+                    name='salary'
                     onInput={onValueChange}/>
 
                 <button type="submit"
